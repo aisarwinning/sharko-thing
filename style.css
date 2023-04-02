@@ -1,45 +1,75 @@
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 .container{
   position: absolute;
   bottom: 8px;
   left: 16px;
 }
 
-#fundialogue {
-  
-}
-
 #wha {
   background-color: black;
 }
 
-/* stolen ass code i got from openai */
-
 .speech-bubble {
   position: relative;
   width: 600px;
-  height: 300px;
+  height: 150px;
   background-color: #fff;
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: 2px 2px 5px #999;
-}
-
-.speech-bubble:before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: 10px;
-  width: 0;
-  height: 0;
-  border-bottom: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-left: 20px solid transparent;
-  border-top: 0;
-  border-top-color: #fff;
 }
 
 .speech-bubble p {
   font-family: "Pixel Operator Mono", monospace;
-  font-size: 80px;
+  font-size: 15vw;
   line-height: 1.5;
-  margin: 10px;
+  margin: 20px;
 }
+
+@media screen and (min-width: 400px) {
+  .speech-bubble p {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .speech-bubble p {
+    font-size: 4vw;
+  }
+}
+
+
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid white;
+  right: -20px;
+  top: 30px;
+}
+
+.hey {
+  position: relative;
+  display: inline-block;
+}
+
+#sharko {
+  width: 500px;
+  height: 500px;
+}
+

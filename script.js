@@ -1,6 +1,7 @@
 var aisarwinning = [
   "fuck you",
-  "gamingg is awrsome"
+  "gamingg is awrsome its really awesome mega awesoke its aersomebtjfjrjfjfjrfj"
 ]
 
-document.getElementById("text").innerHTML = aisarwinning[1]
+document.getElementById("text").innerHTML = "tofjfmmffmdmcnncfnndndndn"
+ 
