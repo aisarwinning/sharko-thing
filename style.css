@@ -1,0 +1,45 @@
+.container{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#fundialogue {
+  
+}
+
+#wha {
+  background-color: black;
+}
+
+/* stolen ass code i got from openai */
+
+.speech-bubble {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 2px 2px 5px #999;
+}
+
+.speech-bubble:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 0;
+  border-top-color: #fff;
+}
+
+.speech-bubble p {
+  font-family: "Pixel Operator Mono", monospace;
+  font-size: 80px;
+  line-height: 1.5;
+  margin: 10px;
+}
