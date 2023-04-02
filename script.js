@@ -3,5 +3,5 @@ var aisarwinning = [
   "gamingg is awrsome its really awesome mega awesoke its aersomebtjfjrjfjfjrfj"
 ]
 
-document.getElementById("text").innerHTML = "tofjfmmffmdmcnncfnndndndn"
+document.getElementById("text").innerText = "tofjfmmffmdmcnncfnndndndn"
  

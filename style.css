@@ -34,20 +34,20 @@ nav a {
 
 .speech-bubble p {
   font-family: "Pixel Operator Mono", monospace;
-  font-size: 15vw;
+  font-size: 3vw;
   line-height: 1.5;
   margin: 20px;
 }
 
 @media screen and (min-width: 400px) {
   .speech-bubble p {
-    font-size: 6vw;
+    font-size: 3vw;
   }
 }
 
 @media screen and (min-width: 600px) {
   .speech-bubble p {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 }
 
